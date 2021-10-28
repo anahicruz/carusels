@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(#2796f1,#8554e0 );
+    min-height: 101vh;
+    margin: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg );
+    height: 100vh;
+    overflow: hidden;
+}
+.login{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 400px;
+  
+
+}
+.login_container{
+     padding: 0 40px;
+     box-sizing: border-box;
+}
+.login input[type="text"],
+.login input[type="password"]{
+ position: relative;
+ border-bottom: 2px solid  rgb(0, 0, 0);
+ margin: 25px 0;
+}
+
+.login input[type="text"],
+.login input[type="password"]{
+    border: none;
+    border-bottom: 2px solid rgb(255, 249, 249);
+    background: transparent;
+}
+.login input[type="text"],
+.login input[type="password"]{
+ top: -5px;
+ color: rgb(245, 245, 245);
+
+    }
+    .button{
+        position: center;
+        bottom: -50px;
+        border-radius: 25px;
+        left: 10px;
+        height: 30px;
+        width: 150px;
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        box-shadow: none;
+        }
+        .cuadrado {
+            position: absolute;
+            left: 390px;
+            width: 300px; 
+            height: 390px; 
+            bottom: 70px;;
+            background: rgba(211, 208, 208, 0.397);
+            border-radius: 10px;
+        
+         }
+         .login_container--rememberme{
+         padding: 30px;
+         position: center;
+        }    
+     label{
+        bottom: 170px;
+        width: 150px;
+        position: absolute;
+        left: -25px;
+        color: #5499c2;
+
+     }
+        .texto{
+            bottom: 170px;
+            width: 130px;
+            position: absolute;
+            left: 95px;
+            color: #186ccc;
+        }
+        .footer{
+            position: absolute;
+            bottom: -150px;
+            left: 170px;
+            padding: 190px;
+        }
+        
+        @media only screen and (max-width:400px){
+            .footer{
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                margin: 75px -250px;
+                width: 150px;
+            }
+        
+
+        }
+        
+        
